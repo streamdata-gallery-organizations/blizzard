@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Blizzard",
+	"description": "This is a repository of blizzard APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/blizzard.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://blizzard.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Blizzard",
+			"x-api-slug": "blizzard",
+			"description": "This is the documentation for the RESTful APIs exposed through the World of Warcraft community site as a service to the World of Warcraft community.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Blizzard_Entertainment_Logo.svg.png",
+			"humanURL": "http://battle.net",
+			"baseURL": "https://us.battle.net//api/wow/",
+			"tags": "Blizzard",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/blizzard/master/_listings/blizzard/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Blizzard",
+	"include": [
+		{
+			"name": "Blizzard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/blizzard/master/_listings/blizzard/apis.yaml"
+		}
+	]
+}
